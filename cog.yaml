@@ -9,6 +9,6 @@ build:
   python_packages:
     - "moviepy==1.0.3"
     - "numpy==1.24.3"
-    - "pillow==10.0.0"
+    - "pillow==9.5.0"
 
 predict: "predict.py:Predictor"

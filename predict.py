@@ -3,9 +3,7 @@
 
 from cog import BasePredictor, Input, Path
 import os
-import tempfile
-import numpy as np
-from typing import List, Optional
+from typing import List
 from moviepy.editor import VideoFileClip, concatenate_videoclips
 
 class Predictor(BasePredictor):
